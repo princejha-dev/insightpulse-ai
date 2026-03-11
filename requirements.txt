@@ -1,5 +1,14 @@
-langchain
-langgraph
-dotenv
-langchain-groq
-youtube-transcript-api
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+
+# LangChain core + Google Gemini integration
+langchain==0.2.5
+langchain-core==0.2.10
+langchain-google-genai==1.0.6
+
+# LangGraph for multi-agent orchestration
+langgraph==0.1.19
+
+# Utilities
+python-dotenv==1.0.1
